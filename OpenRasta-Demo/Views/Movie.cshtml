@@ -1,0 +1,12 @@
+﻿﻿@resource OpenRasta_Demo.Resources.MovieResource
+
+<html>
+    <body>
+        <ul>
+            @foreach(var movie in @Resource.Movies)
+            {
+                <li>@movie.Title - @movie.Year</li>
+            }
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRasta-Demo", "OpenRasta-Demo\OpenRasta-Demo.csproj", "{F21F0246-5738-491A-887A-FF7B8688FA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRasta.Hosting.AspNet", "..\..\..\..\Users\aguilarf\Downloads\OpenRasta\openrasta-hosting-aspnet\src\OpenRasta.Hosting.AspNet\OpenRasta.Hosting.AspNet.csproj", "{FE290BB8-9CB4-454E-89BE-E047674BB34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRasta", "..\..\..\..\Users\aguilarf\Downloads\OpenRasta\openrasta-core\src\OpenRasta\OpenRasta.csproj", "{C3ED9CCE-A140-4D0F-AE00-FBBF4CD27647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRasta.Codecs.Razor", "..\..\..\..\Users\aguilarf\Downloads\OpenRasta\openrasta-codecs-razor\src\OpenRasta.Codecs.Razor\OpenRasta.Codecs.Razor.csproj", "{4AAB667E-3478-4794-940D-8AA028D586F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21F0246-5738-491A-887A-FF7B8688FA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21F0246-5738-491A-887A-FF7B8688FA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21F0246-5738-491A-887A-FF7B8688FA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21F0246-5738-491A-887A-FF7B8688FA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE290BB8-9CB4-454E-89BE-E047674BB34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE290BB8-9CB4-454E-89BE-E047674BB34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE290BB8-9CB4-454E-89BE-E047674BB34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE290BB8-9CB4-454E-89BE-E047674BB34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3ED9CCE-A140-4D0F-AE00-FBBF4CD27647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3ED9CCE-A140-4D0F-AE00-FBBF4CD27647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3ED9CCE-A140-4D0F-AE00-FBBF4CD27647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3ED9CCE-A140-4D0F-AE00-FBBF4CD27647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAB667E-3478-4794-940D-8AA028D586F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAB667E-3478-4794-940D-8AA028D586F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAB667E-3478-4794-940D-8AA028D586F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAB667E-3478-4794-940D-8AA028D586F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+		OpenWrap.VisualStudioIntegration2010 = 1;Ensures OpenWrap initialization when a solution is opened.;OpenWrap Visual Studio Solution Add-in
+	EndGlobalSection
+EndGlobal
